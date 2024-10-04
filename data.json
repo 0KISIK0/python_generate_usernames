@@ -1,0 +1,40 @@
+{
+    "open_l": {
+        "input": ["input_file1.txt","input_file2.txt","input_file3.txt","qwereww","qaddq.txt"],
+        "output": [
+            ["1234:Jozef:Miloslav:Hurban:Legal\n", "4567:Milan:Rastislav:Stefanik:Defence\n", "4563:Jozef::Murgas:Development\n", "4167:Milan:Rastislav:Stefanik:Defence\n"],
+            ["1111:Pista::Hufnagel:Sales\n", "4563:Pista::Hufnagel:Sales\n", "4543:Pista::Hufnagel:Sales\n", "3211:Pista::Hufnagel:Sales\n", "4133:Pista::Hufnagel:Sales\n"],
+            [],
+            [],
+            []
+        ]
+    },
+    "split1": {
+        "input": ["1234:Jozef:Miloslav:Hurban:Legal\n","4567:Milan:Rastislav:Stefanik:Defence\n","4563:Jozef::Murgas:Development\n","4167:Rastislav:Stefanik:Defence\n","4133:5531:Pista::Hufnagel:Sales\n"],
+        "output": [
+            ["1234","Jozef","Miloslav","Hurban","Legal\n"],
+            ["4567","Milan","Rastislav","Stefanik","Defence\n"],
+            ["4563","Jozef","","Murgas","Development\n"],
+            ["x","x","x","x","x"],
+            ["x","x","x","x","x"]
+        ]
+    },
+
+    "gen": {
+        "input": ["1234:Jozef:Miloslav:Hurban:Legal\n","4567:Milan:Rastislav:Stefanik:Defence\n","4563:Jozef::Murgas:Development\n","4167:Rastislav:Stefanik:Defence\n","4133:5531:Pista::Hufnagel:Sales\n"],
+        "output": [
+            "jmhurban",
+            "mrstefan",
+            "jmurgas",
+            "xxx",
+            "xxx1"
+        ]
+    },
+    "allfunc": {
+        "input": ["input_file1.txt","input_file2.txt","input_file3.txt","11123.txt","qwwee.txt"],
+        "output": [
+        ]
+    }
+}
+
+

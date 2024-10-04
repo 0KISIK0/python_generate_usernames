@@ -1,0 +1,9 @@
+1234:jmhurban:Jozef:Miloslav:Hurban:Legal
+4567:mrstefan:Milan:Rastislav:Stefanik:Defence
+4563:jmurgas:Jozef::Murgas:Development
+4167:mrstefan1:Milan:Rastislav:Stefanik:Defence
+1111:phufnage:Pista::Hufnagel:Sales
+4563:phufnage1:Pista::Hufnagel:Sales
+4543:phufnage2:Pista::Hufnagel:Sales
+3211:phufnage3:Pista::Hufnagel:Sales
+4133:phufnage4:Pista::Hufnagel:Sales
